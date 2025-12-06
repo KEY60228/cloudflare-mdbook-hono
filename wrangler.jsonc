@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "cloudflare-static-hono",
+	"name": "cloudflare-mdbook-hono",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-12-02",
 	"assets": {
@@ -16,7 +16,7 @@
 		"enabled": true
 	},
 	"vars": {
-		"CALLBACK_URL": "https://cloudflare-static-hono.key60228.workers.dev/auth/callback"
+		"CALLBACK_URL": "https://cloudflare-mdbook-hono.key60228.workers.dev/auth/callback"
 	},
 	"kv_namespaces": [
 		{
